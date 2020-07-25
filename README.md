@@ -5,8 +5,8 @@ An in-depth documentation of every configuration setting in SCP: Secret Laborato
 - Go to %appdata%/SCP Secret Laboratory/registry.txt (Make sure SCP: Secret Laboratory is closed before making changes, they will apply on the next restart)
 
 ### Notes
-Format is: SettingName|::(SettingValue)
-Examples: 
+Format is: SettingName|::(SettingValue),
+Examples below: 
 - 07menumode::-%(|::1
 - 00y_invert::-%(|::false
 - 06AudioSettings_Effects::-%(|::42.05
@@ -15,7 +15,7 @@ Examples:
 Setting Name | Setting Type | Supported Values | Description
 :---: | :---: | :---: | :------
 06gammavalue::-%( | Float | 0.000 - 2 | Sets the amount of brightness in the game
-06Sens::-%( | float | 0.100 - 3 | Sets the amount of mouse sensitivty in the game
+06Sens::-%( | Float | 0.100 - 3 | Sets the amount of mouse sensitivty in the game
 00y_invert::-%( | Boolean | true or false | Sets the choice of inversion of the mouse input in the game
 07SavedResolutionSet::-%( | Integer | 0 - 20 | Sets the games resolution, starts at 640x480 and goes up to 2560x1440
 07ScreenMode::-%( | Integer | 0 - 3 | Sets the application window type, starts at Exclusive Fullscreen and goes to Windowed
