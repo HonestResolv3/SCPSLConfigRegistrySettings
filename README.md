@@ -14,41 +14,41 @@ Examples:
 ### The Settings
 Setting Name | Setting Type | Supported Values | Description
 :---: | :---: | :---: | :------
-06gammavalue::-%( | float | 0.000 - 2 | Sets the amount of brightness in the game
+06gammavalue::-%( | Float | 0.000 - 2 | Sets the amount of brightness in the game
 06Sens::-%( | float | 0.100 - 3 | Sets the amount of mouse sensitivty in the game
-00y_invert::-%( | boolean | true or false | Sets the choice of inversion of the mouse input in the game
-07SavedResolutionSet::-%( | integer | 0 - 20 | Sets the games resolution, starts at 640x480 and goes up to 2560x1440
-07ScreenMode::-%( | integer | 0 - 3 | Sets the application window type, starts at Exclusive Fullscreen and goes to Windowed
-00gfxsets_vsync::-%( | boolean | true or false | Sets the choice of monitor-restricted framerates in the game
-07MaxFramerate::-%( | integer | -1, 15, 30, 45, 60, 90, 120, 144, 165, 240 | Sets the max frames per second the game can run at, disabled if 00gfxsets_vsync::-%( is true, -1 = Unlimited
-07gfxsets_textures::-%( | integer | 0 - 3 | Sets the texture quality of textures in the game, 0 = Very High, 1 = High, 2 = Medium, 3 = Low
-07gfxsets_maxblood::-%( | integer | 0 - 9 | Sets the max number of blood decals in the game, starts at 0 and goes up to 2000
-00gfxsets_shadows::-%( | boolean | true or false | Sets the choice of having shadows in the game
-07gfxsets_shadres::-%( | integer | 0 - 3 | Sets the quality of the shadows in the game
-07gfxsets_shaddis_new::-%( | integer | 0 - 2 | Sets the distance of shadow visibility in the game
-00gfxsets_mb::-%( | boolean | true or false | Sets the choice of having motion blur in the game
-00gfxsets_cc::-%( | boolean | true or false | Sets the choice of having color correction in the game
-00gfxsets_aa::-%( | boolean | true or false | Sets the choice of having anti-aliasing (no jagged edges on models/textures) in the game
-07gfxsets_hp::-%( | boolean | true or false | Sets the choice of having the game render light in the game
-06AudioSettings_Master::-%( | float | 0.000 - 1 | Sets the volume of all sounds in the game
-06AudioSettings_Effects::-%( | float | 0.000 - 1 | Sets the volume of sound effects in the game
-06AudioSettings_VoiceChat::-%( | float | 0.000 - 1 | Sets the volume of peoples voices (voice chat) in the game
-06AudioSettings_MenuMusic::-%( | float | 0.000 - 1 | Sets the volume of the menu music in the game
-06AudioSettings_Interface::-%( | float | 0.000 - 1 | Sets the volume of button clicks and hovers in the game
-07MenuTheme::-%( | integer | 0 - 3 | Sets the menu music type in game, starts at Default and goes to Classic
-00MaintainSliderProportions::-%( | boolean | true or false | Sets the choice of keeping the menu music and interface volumes the same
-00ClassIntroFastFade::-%( | boolean | true or false | Sets the choice of having the class text "you are now: (class)" fade away quicker
-00HeadBob::-%( | boolean | true or false | Sets the choice of having the camera bob while you walk and run
-00ToggleSprint::-%( | boolean | true or false | Sets the choice of sprinting by just pressing SHIFT once
-00HealthBarShowsExact::-%( | boolean | true or false | Sets the choice of seeing the exact HP number instead of Precentage in the health bar
-00RichPresence::-%( | boolean | true or false | Sets the choice of users being able to see you playing the game on Discord
-00PublicLobby::-%( | boolean | true or false | Sets the choice of having your Steam friends join you in game through Steam and/or the overlay
-00HideIP::-%( | boolean | true or false | Sets the choice of hiding your IP on the client console and other areas
-00ToggleSearch::-%( | boolean | true or false | Sets the choice of picking up items by just pressing E once
-00ModeSwitchSetting079::-%( | boolean | true or false | Sets the choice of changing the way you can play as SCP-079
-00PostProcessing079::-%( | boolean | true or false | Sets the choice of enabling the screen effects when playing as SCP-079
-00translation_changed::-%( | boolean | true or false | Tells the game if the translation was changed
-07menumode::-%( | integer | 0 - 2 | Sets the menu type for the game, 0 = Classic Menu, 1 = Default Menu, 2 = Fast Menu
+00y_invert::-%( | Boolean | true or false | Sets the choice of inversion of the mouse input in the game
+07SavedResolutionSet::-%( | Integer | 0 - 20 | Sets the games resolution, starts at 640x480 and goes up to 2560x1440
+07ScreenMode::-%( | Integer | 0 - 3 | Sets the application window type, starts at Exclusive Fullscreen and goes to Windowed
+00gfxsets_vsync::-%( | Boolean | true or false | Sets the choice of monitor-restricted framerates in the game
+07MaxFramerate::-%( | Integer | -1, 15, 30, 45, 60, 90, 120, 144, 165, 240 | Sets the max frames per second the game can run at, disabled if 00gfxsets_vsync::-%( is true, -1 = Unlimited, 15 = 15 FPS, and so forth
+07gfxsets_textures::-%( | Integer | 0 - 3 | Sets the texture quality of textures in the game, 0 = Very High, 1 = High, 2 = Medium, 3 = Low
+07gfxsets_maxblood::-%( | Integer | 0 - 9 | Sets the max number of blood decals in the game, 0 = 0, 1 = 10, 2 = 25, 3 = 100, 4 = 250, 5 = 400, 6 = 650, 7 = 800, 8 = 1000, 9 = 2000
+00gfxsets_shadows::-%( | Boolean | true or false | Sets the choice of having shadows in the game
+07gfxsets_shadres::-%( | Integer | 0 - 3 | Sets the quality of the shadows in the game
+07gfxsets_shaddis_new::-%( | Integer | 0 - 2 | Sets the distance of shadow visibility in the game
+00gfxsets_mb::-%( | Boolean | true or false | Sets the choice of having motion blur in the game
+00gfxsets_cc::-%( | Boolean | true or false | Sets the choice of having color correction in the game
+00gfxsets_aa::-%( | Boolean | true or false | Sets the choice of having anti-aliasing (no jagged edges on models/textures) in the game
+07gfxsets_hp::-%( | Boolean | true or false | Sets the choice of having the game render light in the game
+06AudioSettings_Master::-%( | Float | 0.000 - 1 | Sets the volume of all sounds in the game
+06AudioSettings_Effects::-%( | Float | 0.000 - 1 | Sets the volume of sound effects in the game
+06AudioSettings_VoiceChat::-%( | Float | 0.000 - 1 | Sets the volume of peoples voices (voice chat) in the game
+06AudioSettings_MenuMusic::-%( | Float | 0.000 - 1 | Sets the volume of the menu music in the game
+06AudioSettings_Interface::-%( | Float | 0.000 - 1 | Sets the volume of button clicks and hovers in the game
+07MenuTheme::-%( | Integer | 0 - 3 | Sets the menu music type in game, starts at Default and goes to Classic
+00MaintainSliderProportions::-%( | Boolean | true or false | Sets the choice of keeping the menu music and interface volumes the same
+00ClassIntroFastFade::-%( | Boolean | true or false | Sets the choice of having the class text "you are now: (class)" fade away quicker
+00HeadBob::-%( | Boolean | true or false | Sets the choice of having the camera bob while you walk and run
+00ToggleSprint::-%( | Boolean | true or false | Sets the choice of sprinting by just pressing SHIFT once
+00HealthBarShowsExact::-%( | Boolean | true or false | Sets the choice of seeing the exact HP number instead of Precentage in the health bar
+00RichPresence::-%( | Boolean | true or false | Sets the choice of users being able to see you playing the game on Discord
+00PublicLobby::-%( | Boolean | true or false | Sets the choice of having your Steam friends join you in game through Steam and/or the overlay
+00HideIP::-%( | Boolean | true or false | Sets the choice of hiding your IP on the client console and other areas
+00ToggleSearch::-%( | Boolean | true or false | Sets the choice of picking up items by just pressing E once
+00ModeSwitchSetting079::-%( | Boolean | true or false | Sets the choice of changing the way you can play as SCP-079
+00PostProcessing079::-%( | Boolean | true or false | Sets the choice of enabling the screen effects when playing as SCP-079
+00translation_changed::-%( | Boolean | true or false | Tells the game if the translation was changed
+07menumode::-%( | Integer | 0 - 2 | Sets the menu type for the game, 0 = Classic Menu, 1 = Default Menu, 2 = Fast Menu
 00DisplaySteamProfile::-%( | Boolean | true or false | Sets the choice of letting users see your steam profile in game
 00DNT::-%( | Boolean | true or false | Sets the choice of hiding your IP in the client (in-game) console
 07W_2_0::-%( | Integer | 0 - 4 | The sight choice for the Epsilon-11 Rifle, 0 = None, 1 = Holo Sight, 2 = Blue Dot Sight, 3 = Night Vision Sight, 4 = Sniper Scope
