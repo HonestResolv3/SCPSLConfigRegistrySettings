@@ -63,7 +63,7 @@ Setting Name | Setting Type | Supported Values | Description
 07W_5_0::-%( | Integer | 0 - 1 | The sight choice for the USP Pistol, 0 = None, 1 = Collimator
 07W_5_1::-%( | Integer | 0 - 2 | The barrel choice for the USP Pistol, 0 = None, 1 = Silencer, 2 = Heavy Barrel
 07W_5_2::-%( | Integer | 0 - 1 | The other attachment choice for the USP Pistol, 0 = None, 1 = Flashlight
-07W_0_0::-%( | Integer | 0 | The sight choice for the USP Pistol, 0 = None
-07W_0_1::-%( | Integer | 0 - 1 | The barrel choice for the USP Pistol, 0 = None, 1 = Silencer
-07W_0_2::-%( | Integer | 0 - 1 | The other attachment choice for the USP Pistol, 0 = None, 1 = Flashlight
+07W_0_0::-%( | Integer | 0 | The sight choice for the COM-15 Pistol, 0 = None
+07W_0_1::-%( | Integer | 0 - 1 | The barrel choice for the COM-15 Pistol, 0 = None, 1 = Silencer
+07W_0_2::-%( | Integer | 0 - 1 | The other attachment choice for the COM-15 Pistol, 0 = None, 1 = Flashlight
 07graphics_api::-%( | Integer | 0 - 4 | The graphics/rendering choice for the game, 0 = Default/Auto, 1 = DX11 (Recommended), 2 = DX12 (Experimental), 3 = OpenGL, 4 = Vulkan (Experimental)
