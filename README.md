@@ -18,14 +18,14 @@ Setting Name | Setting Type | Supported Values | Description
 06Sens::-%( | Float | 0.100 - 3 | Sets the amount of mouse sensitivty in the game
 00y_invert::-%( | Boolean | true or false | Sets the choice of inversion of the mouse input in the game
 07SavedResolutionSet::-%( | Integer | 0 - 20 | Sets the games resolution, starts at 640x480 and goes up to 2560x1440
-07ScreenMode::-%( | Integer | 0 - 3 | Sets the application window type, starts at Exclusive Fullscreen and goes to Windowed
+07ScreenMode::-%( | Integer | 0 - 3 | Sets the application window type, 0 = Exclusive Fullscreen, 1 = Borderless Window, 2 = Maximized Window, 3 = Windowed
 00gfxsets_vsync::-%( | Boolean | true or false | Sets the choice of monitor-restricted framerates in the game
 07MaxFramerate::-%( | Integer | -1, 15, 30, 45, 60, 90, 120, 144, 165, 240 | Sets the max frames per second the game can run at, disabled if 00gfxsets_vsync::-%( is true, -1 = Unlimited, 15 = 15 FPS, and so forth
 07gfxsets_textures::-%( | Integer | 0 - 3 | Sets the texture quality of textures in the game, 0 = Very High, 1 = High, 2 = Medium, 3 = Low
 07gfxsets_maxblood::-%( | Integer | 0 - 9 | Sets the max number of blood decals in the game, 0 = 0, 1 = 10, 2 = 25, 3 = 100, 4 = 250, 5 = 400, 6 = 650, 7 = 800, 8 = 1000, 9 = 2000
 00gfxsets_shadows::-%( | Boolean | true or false | Sets the choice of having shadows in the game
-07gfxsets_shadres::-%( | Integer | 0 - 3 | Sets the quality of the shadows in the game
-07gfxsets_shaddis_new::-%( | Integer | 0 - 2 | Sets the distance of shadow visibility in the game
+07gfxsets_shadres::-%( | Integer | 0 - 3 | Sets the quality of the shadows in the game, 0 = Low, 1 = Medium, 2 = High, 3 = Very High
+07gfxsets_shaddis_new::-%( | Integer | 0 - 2 | Sets the distance of shadow visibility in the game, 0 = Close, 1 = Medium, 2 = Far
 00gfxsets_mb::-%( | Boolean | true or false | Sets the choice of having motion blur in the game
 00gfxsets_cc::-%( | Boolean | true or false | Sets the choice of having color correction in the game
 00gfxsets_aa::-%( | Boolean | true or false | Sets the choice of having anti-aliasing (no jagged edges on models/textures) in the game
