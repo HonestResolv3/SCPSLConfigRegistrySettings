@@ -29,7 +29,8 @@ Setting Name | Setting Type | Supported Values | Description
 00gfxsets_mb::-%( | Boolean | true or false | Sets the choice of having motion blur in the game
 00gfxsets_cc::-%( | Boolean | true or false | Sets the choice of having color correction in the game
 00gfxsets_aa::-%( | Boolean | true or false | Sets the choice of having anti-aliasing (no jagged edges on models/textures) in the game
-07gfxsets_hp::-%( | Boolean | true or false | Sets the choice of having the game render light in the game
+00gfxsets_hp::-%( | Boolean | true or false | Sets the choice of having the game render light in the game (goes with the line down below)
+07gfxsets_hp::-%( | Integer | 0 - 1 | Sets the choice of having the game render light in the game (goes with the line up above), 0 = true, 1 = false
 06AudioSettings_Master::-%( | Float | 0.000 - 1 | Sets the volume of all sounds in the game
 06AudioSettings_Effects::-%( | Float | 0.000 - 1 | Sets the volume of sound effects in the game
 06AudioSettings_VoiceChat::-%( | Float | 0.000 - 1 | Sets the volume of peoples voices (voice chat) in the game
